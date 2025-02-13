@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main(){
-    int a,b,c,e,r;
+    int a,b,c;
+    float e,r;
     scanf("%d %d %d",&a,&b,&c);
     e=(a+b+c);
     r=e/3;
