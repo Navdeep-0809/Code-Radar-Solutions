@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<math.h>
-pi=3.14;
+pi=3.14
 int main(){
     int r;
     scanf("%d",&r);
