@@ -1,8 +1,11 @@
-#include<stdio.h>
-int main(){
-    int a,b,result;
-    scanf("%d %d",&a,&b);
-    result = a||b
-    printf("%d",c)
+#include <stdio.h>
+int main() {
+    int num1, num2, result;
+    printf("Enter the first integer: ");
+    scanf("%d", &num1);
+    printf("Enter the second integer: ");
+    scanf("%d", &num2);
+    result = num1 | num2;
+    printf("Result of %d | %d is %d\n", num1, num2, result);
     return 0;
 }
