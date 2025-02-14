@@ -10,9 +10,9 @@ int main() {
 
     // Check the Most Significant Bit (MSB) for a 32-bit integer
     if (num & (1 << (sizeof(int) * CHAR_BIT - 1))) {
-        printf("The Most Significant Bit (MSB) of %d is set (1).\n", num);
+        printf("Set");
     } else {
-        printf("The Most Significant Bit (MSB) of %d is not set (0).\n", num);
+        printf("Not Set");
     }
 
     return 0;
