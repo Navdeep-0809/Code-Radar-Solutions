@@ -5,7 +5,7 @@ int main(){
     scanf("%d",&n);
     while(i<=n){
         if(!(i==1)){
-            printf(" ")';'
+            printf(" ");
         }else{
              printf("%d",i);
         }
