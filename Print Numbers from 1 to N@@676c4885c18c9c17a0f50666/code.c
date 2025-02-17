@@ -4,8 +4,11 @@ int main(){
     int i=1;
     scanf("%d",&n);
     while(i<=n){
-        printf(" ");
-        printf("%d",i);
+        if(!(i==1)){
+            printf(" ")';'
+        }else{
+             printf("%d",i);
+        }
         i++;
     }
     return 0;
