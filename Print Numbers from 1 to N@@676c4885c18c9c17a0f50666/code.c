@@ -6,6 +6,7 @@ int main(){
     while(i<=n){
         if(!(i==1)){
             printf(" ");
+            printf("%d",i);
         }else{
              printf("%d",i);
         }
