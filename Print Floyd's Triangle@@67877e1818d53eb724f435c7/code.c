@@ -8,5 +8,5 @@ int main(){
             num++;
         }
             printf("\n");
-        }
     }
+}
