@@ -7,7 +7,7 @@ int main(){
             if(i+j<=N){
                 printf(" ");
             }else{
-                printf("* ");
+                printf("*");
             }
         }
         printf("\n");
